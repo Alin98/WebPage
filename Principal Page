@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>BvB</title>
+</head>
+<body>
+<style>
+.BvB {
+  
+  background-image: url("I.jpg"); 
+  height: 500px; 
+  align-items: center;
+  width: 1375px;
+  background-position: center; 
+  background-repeat:repeat-x; 
+  background-size: cover; 
+}
+.prview {
+	font-size:20px;
+    background-color: black;
+    color: yellow;
+    margin: 10px;
+    padding: 10px;
+    margin:20px;
+    width: 200px;
+} 
+.Bvb2
+{
+	height:200px;
+	position:left;
+}
+.table
+{
+	background-color: yellow;
+	border-color:black;
+}
+</style>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  position: relative;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: yellow;
+  color: black;
+}
+
+.topnav a.active {
+  background-color:yellow;
+  color: black;
+
+}
+
+.topnav-centered a {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.topnav-right {
+  float: right;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a, .topnav-right {
+    float: none;
+    display: block;
+  }
+  
+  .topnav-centered a {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- Top navigation -->
+<div class="topnav">
+
+  <!-- Centered link -->
+  <div class="topnav-centered">
+    <a href="#home" class="active">Home</a>
+  </div>
+  
+  <!-- Left-aligned links (default) -->
+  <div class="topnav-left">
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+  <a href="#Gallery">Gallery</a>
+  </div>
+  <!-- Right-aligned links -->
+  <div class="topnav-left">
+    <a href="#search">Search</a>
+    <a href="#about">Shop</a>
+    <a href="#fans">Fans</a>
+  </div>
+  <div class="topnav-right">
+    <a href="#about">About</a>
+  </div>
+</div>
+<style >
+table {
+    font-family: arial, sans-serif;
+}
+
+td, th {
+    border: 3px solid black;
+    text-align: left;
+    padding: 20px;
+}
+
+tr:nth-child(even) {
+    background-color:yellow;
+    lighting-color: black;
+}
+body {
+    background-image: url("BB2.jpg");
+    background-repeat:no-repeat;
+    background-position: center;
+
+}
+body
+{
+	background-color: #ffcc33;
+}
+</style>
+</head>
+<head>
+<script>
+
+function setCookie(cname,cvalue,exdays) {
+    var d = new Date();
+    d.setTime(d.getTime() + (exdays*24*60*60*1000));
+    var expires = "expires=" + d.toGMTString();
+    document.cookie = cname + "=" + cvalue + ";" + expires +               ";path=/";
+}
+
+function getCookie(cname) {
+    var name = cname + "=";
+    var decodedCookie = decodeURIComponent(document.cookie);
+    var ca = decodedCookie.split(';');
+    for(var i = 0; i < ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0) == ' ') {
+            c = c.substring(1);
+        }
+        if (c.indexOf(name) == 0) {
+            return c.substring(name.length, c.length);
+        }
+    }
+    return "";
+}
+
+function checkCookie() {
+    var user=getCookie("email");
+    if (user != "") {
+        alert("Welcome again " + user);
+    } else {
+       user = prompt("Please enter your name:","");
+       if (user != "" && user != null) {
+           setCookie("name", user, 20);
+       }
+    }
+}
+
+</script>
+</head>
+<body onload="checkCookie()">
+	</body>
+</body>
+<div class="BvB">
+  <div class="BvB">
+  </div>
+</div>
+<body background="yellow">
+<h1>
+
+<p></p>
+<p style="color:#ffff70;"><big></big></p>
+<p style="color:black;a">Borussia Dortmund, cunoscut si ca Dortmund sau BVB, este un club de fotbal din Dortmund, Germania, care evolueaza in Bundesliga.</p>
+<p>Time:<p id="demo">
+<script>
+var myVar = setInterval(myTimer, 1000);
+function myTimer() {
+    var d = new Date();
+    document.getElementById("demo").innerHTML = d.toLocaleTimeString();
+}</script><br>
+<br>
+<br>
+<br>
+<br>
+<h3 class="prview"><big>Istoria</big></h3>
+<p size=20 style="color:#ffcc11; /*background-color:black*/ ">In 1962, DFB s-a intalnit in Dortmund si a votat in final pentru infiintarea unei ligi profesioniste de fotbal, care incepea să se joace în August 1963 fiind numita Bundesliga. Borussia ai-a castigat locul printre cele 16 echipe care vor juca in nou formata liga prin castigarea ultimului turneu dinainte de Bundesliga. Clubul care a pierdut, Koln a castigat de asemenea un loc automat. Dortmundul lui, Friedhelm Konietzka, a marcat primul gol din istoria Bundesligii la abia un minut dupa fluierul de start intr-un meci pe care l-a pierdut până la final cu 2-3 în fața lui Werder Bremen.
+In 1965, Dortmund a castigat prima Cupa a Germaniei. Ei au avut un rezultat amestecat in anul urmator, cand au castigat Cupa Cupelor UEFA, dar au predat o poziție de forta in fruntea Bundesligii pierzand patru dintre ultimele lor cinci jocuri in campionat, terminand pe locul al doilea la trei puncte in spatele campionilor 1860 Munchen. In mod ironic, o mare parte din succesul lui 1860 a venit pe puterea de joc a lui Konietzka, recent transferat acolo de la Dortmund. Anii '70 au fost caracterizati de probleme financiare si de retrogradarea din Bundesliga în 1972 si deschiderea Westfalenstadion numit dupa landul, Westfalia în 1974. Clubul s-a reintors în Bundesliga in 1976, dar a continuat sa sufere din cauza problemelor financiare de-a lungul anilor '80. BVB a evitat la limita retrogradarea din nou in 1986 cand a castigat cel de-al treilea meci decisiv din play-off impotriva lui SC Fortuna Koln, care a terminat pe locul 16 in sezonul regulat.
+Clubul nu a mai avut nici un succes major până la castigarea Cupei Germaniei în 1989.
+</p>
+<p size=20 style="color:#ffcc11;">Borussia în 1993 a ajuns în finala Cupei UEFA pe care a pierdut cu 1-6 la general în fața lui Juventus. În ciuda acestui rezultat, Borussia a plecat cu 25 de milioane mărci după sistemul de premiere cu bani al acelor vremuri. Datorită fluxului de bani, Dortmund a fost capabilă să semneze cu jucători care mai târziu le-au adus numeroase premii, în anii 1990.
+Au câștigat Bundesliga în 1995 și în 1996, Matthias Sammer din echipa din '96 a fost numit Fotbalistul european al anului.
+Într-o finală memorabilă a Ligii Campionilor în München, Dortmund s-a întâlnit cu un Juventus din care făcea parte și Zinedine Zidane. Karl-Heinz Riedle a pus Dortmund în față printr-un șut pe sub portar dintr-o centrare a lui Paul Lambert. Riedle a mărit apoi avantajul marcând cu capul după un corner. În a doua repriză, Alessandro Del Piero a redus avantajul celor de la Dortmund. Borussia a mai marcat odată prin tânărul Lars Ricken, Dortmund câștigând cu 3-1.
+
+Borussia a câștigat mai apoi Cupa Intercontinentală 1997 cu 2-0 în fața celor de la Cruzeiro. 
+La schimbarea mileniului, Borussia Dortmund a devenit primul și până în prezent singurul club-public tranzacționat pe piața de capital germană. Doi ani mai târziu au câștigat cel de-al treilea titlu Bundesliga. Clubul a avut un final remarcabil de sezon depășind Bayer Leverkusen și asigurându-și titlul în ultima zi. În același sezon Borussia a pierdut finala Cupei UEFA în fața celor de la Feyenoord.
+
+Puterea financiară a clubului a scăzut de atunci. Conducerea defectuoasă a clubului a condus la vinderea, Westfalenstadion. Situația a fost agravată de eșecul de a avansa în Liga Campionilor 2003, când echipa a fost eliminată la penaltiuri de Club Brugge. Borussia a fost din nou condusă la un pas de faliment în 2005, valoarea inițială de 11 € a acțiunilor sale a scăzut cu peste 80% pe Frankfurter Wertpapierbörse (Frankfurt Stock Exchange). Pentru a putea depăși criza clubul a tăiat salariile jucătorilor cu 20%.
+</p>
+<br><br><br><h4 class="prview"><big>Ultimele meciuri</big></h4>
+<ol>
+<li>Dortmund-Hamburg 4-1</li>
+  <li>Bayern-Dortmund 3-2</li>
+  <li>Dortmund-Cercel Burgge 0-0</li>
+</ol> 
+</body>
+<h5 class="prview"><big>Team</big></h5>
+<table class="table">
+  <tr>
+
+
+    <th>Jucator</th>
+    <th>Pozitie</th>
+    <th>Tara de provenienta</th>
+  </tr>
+  <tr>
+    <td>Marco Reus</td>
+    <td>LW</td>
+    <td>Germany</td>
+  </tr>
+  <tr>
+    <td>Paco Alcacer</td>
+    <td>ST</td>
+    <td>Spain</td>
+  </tr>
+   <tr>
+    <td>Sancho</td>
+    <td>RW</td>
+    <td>England</td>
+  </tr>
+ 
+  </tr>
+</table>
+  <h2 class="prview">Social-Media-Navigation</h2>
+            <a href="http://www.bvb.de/facebook" target="_blank" class="meta-bar__facebook meta-bar__item-bigicon" rel="nofollow">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-fb-24"></use>
+                <span class="visually-hidden">Facebook</span>
+            </a>
+            <a href="http://www.bvb.de/twitter" target="_blank" class="meta-bar__twitter meta-bar__item-bigicon" rel="nofollow">
+                <svg>
+                   
+                </svg>
+                <span class="visually-hidden">Twitter</span>
+            </a>
+            <a href="http://www.bvb.de/instagram" target="_blank" class="meta-bar__instagram meta-bar__item-bigicon" rel="nofollow">
+                <svg>
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-instagram-24"></use>
+                </svg>
+                <span class="visually-hidden">Instagram</span>
+            </a>
+            <br>
+            <br>
+<script>
+
+function goBack() {
+    window.history.back()
+}
+</script>
+</head>
+<body>
+
+<input type="button" value="Back" onclick="goBack()">
+
+</body>
+</body>
+</html>
