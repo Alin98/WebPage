@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<style>
+.pozitionare_relativa {
+	position:relative;
+	left:645px;
+	top:0px;
+}
+body
+{ 
+    background-image: url("BB.jpg"); 
+}
+</style>
+<head>
+
+</head>
+<body>
+	<style >
+		#Buton
+		{
+			border: 1px solid;
+            padding: 10px;
+            box-shadow: 5px 10px;
+			color: black;
+			font-family: Ariel;
+			font-size: 1.5em;
+		    margin: 10px;
+            padding: 15px;
+            margin:20px;
+            width: 500px;
+		}
+		.history
+		{
+			color: black;
+			font-size: 20px;
+			font-style: Ariel;
+			padding: 10px;
+			width: 250px;
+			position: relative;
+			left:625px;
+			background-color: grey;
+			background-position: relative;
+			margin-right: 60px;
+			width: 60px;
+			width-right:50px;
+
+		}
+	</style>
+	 <h1>Pagina Principala</h1>
+            <a href="C:\Users\pc\Desktop\tw\BvB.html"  /*rel="nofollow"*/>
+                  
+                <span id="Buton">Click here!</span>
+            </a>
+            <p class="history">History</p>
+            <br>
+            <br>
+<video width="350" height="250" controls>
+  <source src="video.mp4" type="video/mp4">
+  <source src="video.ogg" type="video/ogg">
+</video>
+<span class="pozitionare_relativa">
+<video width="350" height="250"  controls>
+  <source src="Stadium.mp4" type="video/mp4">
+  <source src="Stadium.ogg" type="video/ogg">
+  </span>
+</video>
+<br>
+<video width="350" height="250" controls>
+  <source src="Dortmund.mp4" type="video/mp4">
+  <source src="Dortmund.ogg" type="video/ogg">
+</video>
+<span class="pozitionare_relativa">
+<video width="350" height="250"  controls>
+  <source src="History.mp4" type="video/mp4">
+  <source src="History.ogg" type="video/ogg">
+  </span>
+</video>
+</body>
+</html>
