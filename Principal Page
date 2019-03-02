@@ -97,24 +97,24 @@ body {
 </head>
 <body>
 
-
 <div class="topnav">
- <div class="topnav-centered">
+
+  <div class="topnav-centered">
     <a href="#home" class="active">Home</a>
-  </div> 
+  </div>
   <div class="topnav-left">
-  <a href="#news">News</a>
-  <a href="#contact">Contact</a>
-  <a href="#Gallery">Gallery</a>
+  <a href="https://www.goal.com/en-ae/team/borussia-dortmund/dt4pinj0vw0t0cvz7za6mhmzy"  *rel="nofollow"*/>News</a>
+  <a href="https://www.bvb.de/eng/Contact" *rel="nofollow"*/>Contact</a>
+  <a href="https://www.gettyimages.com/photos/borussia-dortmund" /*rel="nofollow"*/>Gallery</a>
   </div>
   
   <div class="topnav-left">
     <a href="#search">Search</a>
-    <a href="#about">Shop</a>
-    <a href="#fans">Fans</a>
+    <a href="https://shop.bvb.de" /*rel="nofollow"*/>Shop</a>
+    <a href="http://bvb09.ro/"  /*rel="nofollow"*/>Fans</a>
   </div>
   <div class="topnav-right">
-    <a href="#about">About</a>
+    <a href="https://en.wikipedia.org/wiki/Borussia_Dortmund" /*rel="nofollow"*/>About</a>
   </div>
 </div>
 <style >
@@ -151,7 +151,7 @@ function setCookie(cname,cvalue,exdays) {
     var d = new Date();
     d.setTime(d.getTime() + (exdays*24*60*60*1000));
     var expires = "expires=" + d.toGMTString();
-    document.cookie = cname + "=" + cvalue + ";" + expires +               ";path=/";
+    document.cookie = cname + "=" + cvalue + ";" + expires +  ";path=/";
 }
 
 function getCookie(cname) {
@@ -181,6 +181,7 @@ function checkCookie() {
        }
     }
 }
+
 
 </script>
 </head>
@@ -285,7 +286,6 @@ function goBack() {
 <body>
 
 <input type="button" value="Back" onclick="goBack()">
-
 </body>
 </body>
 </html>
