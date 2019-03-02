@@ -97,21 +97,17 @@ body {
 </head>
 <body>
 
-<!-- Top navigation -->
-<div class="topnav">
 
-  <!-- Centered link -->
-  <div class="topnav-centered">
+<div class="topnav">
+ <div class="topnav-centered">
     <a href="#home" class="active">Home</a>
-  </div>
-  
-  <!-- Left-aligned links (default) -->
+  </div> 
   <div class="topnav-left">
   <a href="#news">News</a>
   <a href="#contact">Contact</a>
   <a href="#Gallery">Gallery</a>
   </div>
-  <!-- Right-aligned links -->
+  
   <div class="topnav-left">
     <a href="#search">Search</a>
     <a href="#about">Shop</a>
